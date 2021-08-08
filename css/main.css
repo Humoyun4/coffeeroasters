@@ -14,6 +14,7 @@
 }
 .container-1 {
   width: 90%;
+  max-width: 1280px;
   margin: auto;
 }
 .container-2 {
@@ -464,27 +465,27 @@ footer {
 /* End of About-us page styling */
 
 .create--hero {
-  position: relative;
   background: url(../images/create-page-banner.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 1268px;
-  height: 500px;
-  border-radius: 1.2rem;
+  height: 450px;
+  border-radius: 20px;
   margin: 0 auto;
-  top: -25px;
+  padding: auto 0;
 }
 .create--hero__block {
-  position: relative;
-  width: 45%;
+  width: 486px;
+  height: 182px;
   float: left;
+  padding: 134px 0;
   /* left: 4rem; */
 }
 .create--hero__block__heading {
   color: #FEFCF7;
   font-family: var(--Fraunces);
   font-size: 4.5rem;
-  padding-top: 12rem;
+  padding: auto 0;
 }
 .create--hero__block__desc {
   color: #FEFCF7;
@@ -555,7 +556,8 @@ footer {
   margin-bottom: 2rem;
 }
 .tablo__right .title-1, .tablo__right .title-2, .tablo__right .title-3, .tablo__right .title-4, .tablo__right .title-5 {
-  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 7rem;
 }
 .tablo__right .title-1 h1, .tablo__right .title-2 h1, .tablo__right .title-3 h1, .tablo__right .title-4 h1, .tablo__right .title-5 h1{
   display: inline-block;
@@ -563,7 +565,6 @@ footer {
   color: #83888F;
   font-family: var(--Fraunces);
   font-size: 2.5rem;
-  margin-bottom: 40px;
 }
 
 .tablo__right .tablo-icon {
@@ -583,13 +584,6 @@ footer {
 .tablo .container-2 {
   width: 70%;
   margin: 0 auto;
-}
-.title-1, .title-2, .title-3, .title-4, .title-5 {
-  margin-bottom: 7rem;
-}
-.tablo__right + .tablo__right {
-  position: relative;
-  top: -4rem;
 }
 .tablo .category .item-c {
   color: #333D4B;
